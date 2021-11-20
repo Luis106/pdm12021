@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+android:layout_height="150dp">
+<ImageView
+    android:id="@+id/imageViewPeople"
+    android:layout_width="129dp"
+    android:layout_height="112dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/charizard" />
+<TextView
+    android:id="@+id/itemName"
+    android:layout_width="239dp"
+    android:layout_height="45dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="16dp"
+    android:text="Nombre"
+    app:layout_constraintStart_toEndOf="@+id/imageViewPeople"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/itemAge"
+    android:layout_width="97dp"
+    android:layout_height="43dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="140dp"
+    android:text="Edad"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.842"
+    app:layout_constraintStart_toEndOf="@+id/imageViewPeople"
+    app:layout_constraintTop_toBottomOf="@+id/itemAdvice" />
+<TextView
+    android:id="@+id/itemAdvice"
+    android:layout_width="232dp"
+    android:layout_height="43dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:text="TextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/itemName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

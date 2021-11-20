@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="129dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="95dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="148dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProduct"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tiemPrice"
+        android:layout_width="97dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="140dp"
+        android:text="$0.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProduct"
+        app:layout_constraintTop_toBottomOf="@+id/itemDescription" />
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="237dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

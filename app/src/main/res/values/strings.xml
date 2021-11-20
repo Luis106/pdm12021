@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">pdm12021</string>
+    <string name="score_vaSt">your score: %s</string>
+    <string name="time">Time: %s</string>
+    <string name="end_game">Juego terminado:  %s Puntos</string>
+    <string name="question_australia">¿Canberra es la capital de Australia?.</string>
+    <string name="question_oceans">El Oceano pacifico es mas largo que el Oceano Atlantico.</string>
+    <string name="question_mideast">El canal The Suez connecta el mar rojo con el oceano indico</string>
+    <string name="question_africa">El origien del Río Nilo esta en Egipto</string>
+    <string name="question_americas">El rio del Amazonas es el rio mas largo en el continente Americano.</string>
+    <string name="question_asia">El lago Baikal es el mas profundo y antiguo lago de agua dulce del mundo.</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+</resources>

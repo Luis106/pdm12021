@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btn_hellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/btnhello"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="40dp"
+            android:text="Hola Mundo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_TFA"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="128dp"
+            android:text="TimeFighterActivity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Par"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="220dp"
+            android:text="Parcial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_IMC"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="300dp"
+            android:text="IMC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_pokedex"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="368dp"
+            android:text="Pokedex"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Maps"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="744dp"
+            android:text="Maps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_animations2"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="440dp"
+            android:text="Animations"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_PPT"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="596dp"
+            android:text="Piedra-Papel-Tijera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_QR"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="672dp"
+            android:text="QR"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_shake"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="524dp"
+            android:text="Shake"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Geo"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="816dp"
+            android:text="Geo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Web"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="884dp"
+            android:text="WebView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_diaAc"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="976dp"
+            android:text="Dialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_LP"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="1040dp"
+            android:text="List Product"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_FBT"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="1052dp"
+            android:text="FireBase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_WEBSERLis"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="1076dp"
+            android:text="WEB LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_ws"
+            android:layout_width="205dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="928dp"
+            android:text="webService"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="121dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="1028dp"
+            android:text="Hola Mundo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TFA"
+            tools:textSize="20sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
